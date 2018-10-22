@@ -7,7 +7,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "preinstall": "cd client && npm install && ionic-app-scripts build && npm run start",
+    "preinstall": "cd client && npm install && npx ionic-app-scripts build && npm run start",
     "start": "node .",
     "posttest": "npm run lint"
   },
